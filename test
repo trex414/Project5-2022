@@ -1,0 +1,60 @@
+Test 1: User log in
+Steps:
+
+1.User launches application.
+2.User selects the username textbox.
+3.User enters username via the keyboard.
+4.User selects the password textbox.
+5.User selects the "Log in" button.
+Expected result: Application verifies the user's username and password and loads their homepage automatically.
+
+Test Status: Passed. 
+
+Test one:
+
+Steps:
+User launches application.
+User selects the "Set up a Teacher account" button.
+User type in "Jason" in first box, "jason" in second box, and "123" in third box.
+User selects the "Log-In" button.
+User selects the "I am a teacher" and type in "Jason" in the first box and type in "456" in third box
+
+Expected result: Error message "No user with that username and password!"
+
+Test Two:
+
+Steps:
+User launches application.
+User selects the "Set up a Teacher account" button.
+User type in "Jason" in first box, "jason" in second box, and "123" in third box.
+User selects the "Log-In" button.
+User selects the "I am a teacher" and type in "jason" in the first box and type in "123" in the second box
+User selects the "Add Course" button and "Enter" button
+User type in "CS180" in the box and select "Enter" button
+User selects "Log in" button and tpye in "jason" in the first box and type in "123" in the second box and select "Enter" button
+User type in "CS180" and select "Enter" button
+User type in "MA303" and select "Enter" button
+User select "Set up a Student account" button 
+User type in "Mason" in first box, "Mason" in second box, and "123" in third box.
+User selects the "Log-In" button.
+User selects the "I am a teacher" and type in "jason" in the first box and type in "123" in the second box
+User selects the "Join Course" button and "Enter" button
+User type in "MA303" and select "Enter" button
+User select "Add quiz" button and "Enter" button
+User select "Add quiz without a File" button and "Enter" button
+User type in "quiz1" in the first box and "2" in the second box and select "Enter" button
+User type in "1+1", "1", "2", "3", "4", "2" and select "Enter" button
+User type in "1*5", "2", "4", "5", "1", "3" nad select "Enter" button
+User select "Exit" button
+User select "Signout" button
+User selects the "Log-In" button.
+User selects the "I am a student" and type in "Mason" in the first box and type in "123" in the second box and select 'Enter' button
+User type in "MA303"
+
+
+
+
+
+
+Expected result: Error message "Course already exists!"
+
